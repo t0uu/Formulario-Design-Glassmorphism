@@ -5,6 +5,7 @@
 body{
     background-image: url(/assets/fondo-formulario.jpg);
     background-size:cover;
+    background-repeat:no-repeat;
 }
 
 h1 {
@@ -85,14 +86,18 @@ footer{
         font-size: 22px;
     }
     form{
-        width: 60%;
-        height: 60%;
+        width: 80%;
+        height: 80%;
+        margin-bottom: 8px;
     }
     input{
         width: 50%;
     }
+    button{
+        padding: 10px;
+    }
     footer{
-        margin: 20px;
-        padding: 22px;
+        margin: 15px;
+        padding: 30px;
     }
 }
