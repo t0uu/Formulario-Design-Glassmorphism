@@ -84,11 +84,13 @@ footer{
 @media (max-width: 768px) {
     h1{
         font-size: 22px;
+        padding: 3rem;
     }
     form{
         width: 80%;
         height: 80%;
-        margin-bottom: 8px;
+        /* margin: 20px; */
+        padding: 20px;
     }
     input{
         width: 50%;
@@ -98,6 +100,6 @@ footer{
     }
     footer{
         margin: 15px;
-        padding: 30px;
+        padding: 3rem;
     }
 }
